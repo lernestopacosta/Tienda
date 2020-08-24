@@ -1,0 +1,64 @@
+@media only screen and(max-width:768px) {
+    header {
+        padding: 1rem 20px;
+
+        .menu {
+            display: none;
+        }
+
+        .compras {
+            display: none;
+        }
+
+        .btnBurger {
+            display: block;
+        }
+    }
+
+    .hero {
+        //background-color: #fff;
+        margin-top: 3rem;
+        .contenedor{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .descripcion {
+                width: 100%;
+                max-width: 350px;
+                text-align: center;
+                
+                //background: red;
+                h2 {
+                    font-size: 2rem;
+                    letter-spacing: 2px;
+                }
+
+                .btnVerMas {
+                    display: none;
+                }
+            }
+
+            .audifonos {
+               display: none;
+            }
+
+            .audifonos2 {
+                display: block;
+             }
+            .btnVerMas2{
+                display: block;
+
+            }
+        }
+        
+    }
+    .Tienda {
+        width: 100%;
+    
+        .contenedor {
+            margin-top: -13%;
+        }
+    }
+
+}
